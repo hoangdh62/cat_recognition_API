@@ -56,6 +56,6 @@ def process():
 def home():
     return "OV"
 
-app.run(host="192.168.1.38", port=8080,debug=False)
+app.run(port=8080,debug=False)
 # app.run(host="192.168.1.14", port=5000,debug=False)
 # app.run(host="localhost", port=8080,debug=False)
